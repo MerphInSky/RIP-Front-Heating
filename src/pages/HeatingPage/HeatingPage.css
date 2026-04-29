@@ -1,0 +1,104 @@
+.device-page-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 240px;
+}
+
+.application-not-found {
+  max-width: 1200px;
+  margin: 24px auto;
+  padding: 0 20px;
+  text-align: center;
+  color: #555;
+}
+
+.heating-page .application-detail {
+  max-width: 1200px;
+  margin: 24px auto;
+  padding: 0 20px 40px;
+  box-sizing: border-box;
+}
+
+.heating-page__table-wrap.app-table-wrapper {
+  position: relative;
+  width: 100%;
+  left: auto;
+  right: auto;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heating-page__table-wrap .app-table thead tr {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 12px;
+}
+
+.heating-page__table-wrap .app-table thead th {
+  font-weight: 600;
+  color: #2c353d;
+  
+}
+
+.heating-page__table-wrap .app-table thead .app-table__col-resistance {
+  position: relative;
+  left: -25px;
+}
+
+.heating-page__table-wrap .app-table thead .app-table__col-name {
+  position: relative;
+  left: -20px;
+}
+
+.heating-page__table-wrap .app-table thead .app-table__col-power {
+  position: relative;
+  left: -30px;
+}
+
+.heating-page__table-wrap .app-table__col-order {
+  min-width: 1px;
+  width: auto;
+  flex-shrink: 0;
+  
+}
+
+
+
+
+.heating-page__table-wrap .app-table tbody tr.hierarchy-level-2 {
+  width: calc(100% - 72px);
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.heating-page__table-wrap .app-table tbody tr.hierarchy-level-3 {
+  width: calc(100% - 120px);
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.heating-page__delete-form {
+  margin-top: 24px;
+}
+
+.heating-page__delete-btn {
+  background-color: #12b0b5 !important;
+}
+
+.heating-page__delete-btn:hover {
+  background-color: #99d5d5 !important;
+}
+
+@media (max-width: 640px) {
+  .heating-page__table-wrap .app-table tbody tr.hierarchy-level-2 {
+    width: calc(100% - 40px);
+  }
+
+  .heating-page__table-wrap .app-table tbody tr.hierarchy-level-3 {
+    width: calc(100% - 64px);
+  }
+
+}
