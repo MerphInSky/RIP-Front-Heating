@@ -1,0 +1,137 @@
+.heats-page {
+  padding: 0 20px 48px;
+}
+
+.heats-page__inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.heats-page__heading {
+  margin: 20px 0 8px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.heats-page__sub {
+  margin: 0 0 20px;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.heats-page__filters {
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+.heats-page__filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: flex-end;
+}
+
+.heats-page__fg {
+  min-width: 160px;
+}
+
+.heats-page__fg--grow {
+  flex: 1;
+  min-width: 200px;
+}
+
+.heats-page__apply {
+  margin-top: 16px;
+  font-weight: 600;
+  border-color: #17aeb9 !important;
+  background-color: #17aeb9 !important;
+  color: #2c353d !important;
+}
+
+.heats-page__apply:hover:not(:disabled) {
+  background-color: #17aeb9 !important;
+  border-color: #17aeb9 !important;
+  color: #1a1a1a !important;
+}
+
+.heats-page__btn-finish {
+  border-color: #17aeb9 !important;
+  background-color: #17aeb9 !important;
+  color: #2c353d !important;
+  font-weight: 600;
+}
+
+.heats-page__btn-finish:hover:not(:disabled) {
+  background-color: #17aeb9 !important;
+  border-color: #17aeb9 !important;
+  color: #1a1a1a !important;
+}
+
+.heats-page__btn-reject {
+  border-color: #17aeb9 !important;
+  color: #17aeb9 !important;
+  background-color: #fff !important;
+  font-weight: 600;
+}
+
+.heats-page__btn-reject:hover:not(:disabled) {
+  background-color: rgba(197, 95, 77, 0.08) !important;
+  border-color: #17aeb9 !important;
+  color: #17aeb9 !important;
+}
+
+.heats-page__error {
+  background: #faf6f4;
+  border: 1px solid #17aeb9;
+  color: #17aeb9;
+  padding: 10px 12px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+.heats-page__loader {
+  display: flex;
+  justify-content: center;
+  padding: 32px;
+}
+
+.heats-page__table-wrap {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #e0e0e0;
+}
+
+.heats-page__table {
+  margin: 0;
+}
+
+.heats-page__linkish {
+  background: none;
+  border: none;
+  padding: 0;
+  color: #17aeb9;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.heats-page__linkish:hover {
+  color: #17aeb9;
+}
+
+.heats-page__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.heats-page__empty {
+  text-align: center;
+  color: #666;
+  padding: 24px;
+}
